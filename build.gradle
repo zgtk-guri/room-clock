@@ -50,6 +50,7 @@ repositories {
 
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8:$kotlin_version"
+    compile group: 'org.processing', name: 'core', version: '3.3.5'
 }
 
 compileKotlin {
